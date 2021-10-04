@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this blog",
+      "description": "Some additional details about the blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-10-04T16:42:57+08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "IS415 Project",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-10-04T16:45:59+08:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-10-08-project-proposal/",
+    "title": "Project Proposal",
+    "description": "Understanding the death rates in Indonesia",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-10-08",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-10-08T22:32:08+08:00",
+    "input_file": "project-proposal.knit.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to IS415 Project",
     "description": "Welcome to our new blog, IS415 Project. We hope you enjoy \nreading what we have to say!",

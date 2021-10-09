@@ -16,8 +16,13 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+# Project Motivation
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+COVID-19 has become an indisputable part of our daily life ever since the virus spread to the majority of the world. Some countries have been able to keep the situation under control, however, there are some that suffered more devastating effects from it. India and Indonesia are 2 countries in Asia that have the highest COVID related mortality and positive rates (worldometers, n.d.) for COVID-19 cases, expecially so in the main capital of the respective countries, likely due to certain underlying common factors within the countries.
+
+Researchers claims that Indonesia's capital, Jakarta, could have as many as 4.7 million people who are possibly infected by the virus in March 2021 (Sood, 2021). This is alarming as this number constitures to "nearly half" of Jakarta's population.
+
+Thus, our research would focus on identifying the factors that may have played a part in Jakarta's high infection rate, how much each factor contributes to the rates itself and how much of the infection rate can be explained by these factors, before applying the same model onto other countries to verify our observations.
+
 
 

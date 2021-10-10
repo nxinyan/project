@@ -27,18 +27,9 @@ Researchers claims that Indonesia's capital, Jakarta, could have as many as 4.7 
 
 Thus, our research would focus on identifying the factors that may have played a part in Jakarta's high infection rate, how much each factor contributes to the rates itself and how much of the infection rate can be explained by these factors, before applying the same model onto other countries to verify our observations.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Literature Review
 
-
-
-## References
-=======
-# Datasets
-=======
 ## Datasets
->>>>>>> 9e316cf7ca88f5682f27c47e309c75d98fae7f90
 
 ### Indonesia Monthly Covid Data
 
@@ -125,8 +116,7 @@ Source: https://data.humdata.org/
 Description: The data contains healthcare facilities in Jakarta.
 
 
-# References
->>>>>>> 81da8d5f79b4ce756e8cee2980b4d04d37db5153
+## References
 
 + Sood, A. S. (2021, July 14). Indonesia Covid-19: Almost half of Jakarta’s population may have caught the virus, survey finds. Retrieved October 9, 2021, from https://edition.cnn.com/2021/07/13/asia/indonesia-antibody-study-covid-intl-hnk-scli/index.html
 + worldometers. (n.d.). COVID Live Update: 237,632,869 Cases and 4,851,284 Deaths from the Coronavirus - Worldometer. Retrieved October 8, 2021, from https://www.worldometers.info/coronavirus/#countries

@@ -1434,8 +1434,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="project-proposal_files/header-attrs-2.11/header-attrs.js"></script>
-  <script src="project-proposal_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="project-proposal_files/header-attrs-2.10/header-attrs.js"></script>
+  <script src="project-proposal_files/jquery-1.11.3/jquery.min.js"></script>
   <script src="project-proposal_files/popper-2.6.0/popper.min.js"></script>
   <link href="project-proposal_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="project-proposal_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -1501,6 +1501,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><a href="#jakarta-points-of-interests">Jakarta Points of Interests</a></li>
 <li><a href="#jakarta-health-facilities">Jakarta Health Facilities</a></li>
 </ul></li>
+<li><a href="#methodology-3">Methodology</a></li>
 <li><a href="#references">References</a></li>
 </ul>
 </nav>
@@ -1606,47 +1607,80 @@ Show code
 </ul>
 <h2 id="datasets">Datasets</h2>
 <h3 id="indonesia-monthly-covid-data">Indonesia Monthly Covid Data</h3>
+<p>Description: The data contain COVID-19 measures at sub-district level.</p>
 <p>File Format: Excel</p>
 <p>Variables: ID_KEL, Nama_provinsi, nama_kota, nama_kecamatan, nama_kelurahan, POSITIF, Meninggal</p>
 <p>Source: <a href="https://riwayat-file-covid-19-dki-jakarta-jakartagis.hub.arcgis.com/" class="uri">https://riwayat-file-covid-19-dki-jakarta-jakartagis.hub.arcgis.com/</a></p>
-<p>Description: The data contain COVID-19 measures at sub-district level.</p>
 <h3 id="indonesia-population-density-counts-2020">Indonesia Population Density / Counts 2020</h3>
-<p>File Format: TIF</p>
-<p>Source: <a href="https://www.worldpop.org/" class="uri">https://www.worldpop.org/</a></p>
 <p>Description: The datasets contain population density / total number of people in Indonesia per grid-cell, at resolution of 30 arc (approximately 1km).</p>
-<h3 id="indonesia-birth-2015">Indonesia Birth 2015</h3>
 <p>File Format: TIF</p>
 <p>Source: <a href="https://www.worldpop.org/" class="uri">https://www.worldpop.org/</a></p>
+<h3 id="indonesia-birth-2015">Indonesia Birth 2015</h3>
 <p>Description: The data contain numbers of live births per grid square in Indonesia, at resolution of 30 arc (approximately 1km).</p>
+<p>File Format: TIF</p>
+<p>Source: <a href="https://www.worldpop.org/" class="uri">https://www.worldpop.org/</a></p>
 <h3 id="batas-desa-provinsi-dki-jakarta">Batas Desa Provinsi DKI Jakarta</h3>
-<p>File Format: Shapefile</p>
-<p>Source: <a href="https://www.indonesia-geospasial.com/" class="uri">https://www.indonesia-geospasial.com/</a></p>
 <p>Description: This is the geospatial data of DKI Jarkarta.</p>
+<p>File Format: Shapefile</p>
+<p>Variables: OBJECT_ID, KODE_DESA, DESA, KODE, PROVINSI, KAB_KOTA, KECAMATAN. DESA_KELUR, JUMLAH_PEN</p>
+<p>Source: <a href="https://www.indonesia-geospasial.com/" class="uri">https://www.indonesia-geospasial.com/</a></p>
 <h3 id="jakarta-railway">Jakarta Railway</h3>
+<p>Description: The data contain railways and stations in Jakarta.</p>
 <p>File Format: Shapefile</p>
 <p>Variables: name, railway</p>
 <p>Source: <a href="https://data.humdata.org/" class="uri">https://data.humdata.org/</a></p>
-<p>Description: The data contain railways and stations in Jakarta.</p>
 <h3 id="jakarta-education">Jakarta Education</h3>
+<p>Description: The data contain kindergartens, schools, colleges, and universities in Jakarta.</p>
 <p>File Format: Shapefile</p>
 <p>Variables: name, amenity, addrcity</p>
 <p>Source: <a href="https://data.humdata.org/" class="uri">https://data.humdata.org/</a></p>
-<p>Description: The data contain kindergartens, schools, colleges, and universities in Jakarta.</p>
 <h3 id="jakarta-airport">Jakarta Airport</h3>
+<p>Description: The data contain gates, helipads, and terminals in Jakarta.</p>
 <p>File Format: Shapefile</p>
 <p>Variables: name, aeroway</p>
 <p>Source: <a href="https://data.humdata.org/" class="uri">https://data.humdata.org/</a></p>
-<p>Description: The data contain gates, helipads, and terminals in Jakarta.</p>
 <h3 id="jakarta-points-of-interests">Jakarta Points of Interests</h3>
+<p>Description: The data contain amenities, shops, and tourist attractions in Jakarta.</p>
 <p>File Format: Shapefile</p>
 <p>Variables: name, amenity, shop, tourism</p>
 <p>Source: <a href="https://data.humdata.org/" class="uri">https://data.humdata.org/</a></p>
-<p>Description: The data contain amenities, shops, and tourist attractions in Jakarta.</p>
 <h3 id="jakarta-health-facilities">Jakarta Health Facilities</h3>
+<p>Description: The data contains healthcare facilities in Jakarta.</p>
 <p>File Format: Shapefile</p>
 <p>Variables: Name, Address, Type, Class, District, Province, Lat, Long, Hospital</p>
 <p>Source: <a href="https://data.humdata.org/" class="uri">https://data.humdata.org/</a></p>
-<p>Description: The data contains healthcare facilities in Jakarta.</p>
+<h2 id="methodology-3">Methodology</h2>
+<ol type="1">
+<li>Data Preparation</li>
+</ol>
+<ul>
+<li><p>Data Sourcing</p></li>
+<li><p>Data Importing</p></li>
+<li><p>Data Wrangling</p></li>
+</ul>
+<ol start="2" type="1">
+<li>Exploratory Data Analysis (EDA)</li>
+</ol>
+<ul>
+<li><p>Statistical Graphs</p>
+<ul>
+<li><p>Histogram</p></li>
+<li><p>Box Plot</p></li>
+</ul></li>
+<li><p>Choropleth Map</p></li>
+<li><p>Kernel Density Estimation</p></li>
+</ul>
+<ol start="3" type="1">
+<li>Geographically Weighted Regression Models (GWR)</li>
+</ol>
+<ul>
+<li><p>Spearman Correlation Coefficient</p>
+<p>Spearman Correlation Coefficient is used to determine the most relevant explanatory variables for the regression models</p></li>
+<li><p>Cross-Validation score</p>
+<p>Cross Validation Score is used to identify a window size to get different subsets of the data to be parsed into the model.</p></li>
+<li><p>Akaike Information Criteria (AIC) score</p>
+<p>AIC evaluates the model generated from the data and sees how well the model can fit other data. It also determines the best evaluated model that best fits data.</p></li>
+</ul>
 <h2 id="references">References</h2>
 <ul>
 <li>Sood, A. S. (2021, July 14). Indonesia Covid-19: Almost half of Jakarta’s population may have caught the virus, survey finds. Retrieved October 9, 2021, from <a href="https://edition.cnn.com/2021/07/13/asia/indonesia-antibody-study-covid-intl-hnk-scli/index.html" class="uri">https://edition.cnn.com/2021/07/13/asia/indonesia-antibody-study-covid-intl-hnk-scli/index.html</a></li>

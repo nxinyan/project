@@ -113,39 +113,43 @@ To gain an understanding of how socio-demographic factors causes COVID-19 transm
 
 ### Indonesia Monthly Covid Data
 
+Description: The data contain COVID-19 measures at sub-district level.
+
 File Format: Excel
 
 Variables: ID_KEL, Nama_provinsi, nama_kota, nama_kecamatan, nama_kelurahan, POSITIF, Meninggal
 
 Source: https://riwayat-file-covid-19-dki-jakarta-jakartagis.hub.arcgis.com/ 
-
-Description: The data contain COVID-19 measures at sub-district level.
  
 ### Indonesia Population Density / Counts 2020
 
+Description: The datasets contain population density / total number of people in Indonesia per grid-cell, at resolution of 30 arc (approximately 1km).
+
 File Format: TIF
 
 Source: https://www.worldpop.org/
 
-Description: The datasets contain population density / total number of people in Indonesia per grid-cell, at resolution of 30 arc (approximately 1km).
- 
 ### Indonesia Birth 2015
 
+Description: The data contain numbers of live births per grid square in Indonesia, at resolution of 30 arc (approximately 1km).
+
 File Format: TIF
 
 Source: https://www.worldpop.org/
-
-Description: The data contain numbers of live births per grid square in Indonesia, at resolution of 30 arc (approximately 1km).
  
 ### Batas Desa Provinsi DKI Jakarta 
 
+Description: This is the geospatial data of DKI Jarkarta.
+
 File Format: Shapefile
+
+Variables: OBJECT_ID, KODE_DESA, DESA, KODE, PROVINSI, KAB_KOTA, KECAMATAN. DESA_KELUR, JUMLAH_PEN
 
 Source: https://www.indonesia-geospasial.com/ 
 
-Description: This is the geospatial data of DKI Jarkarta.
-
 ### Jakarta Railway
+
+Description: The data contain railways and stations in Jakarta.
 
 File Format: Shapefile
 
@@ -153,9 +157,9 @@ Variables: name, railway
 
 Source: https://data.humdata.org/ 
 
-Description: The data contain railways and stations in Jakarta.
- 
 ### Jakarta Education
+
+Description: The data contain kindergartens, schools, colleges, and universities in Jakarta.
 
 File Format: Shapefile
 
@@ -163,29 +167,29 @@ Variables: name, amenity, addrcity
 
 Source: https://data.humdata.org/ 
 
-Description: The data contain kindergartens, schools, colleges, and universities in Jakarta.
- 
 ### Jakarta Airport
+
+Description: The data contain gates, helipads, and terminals in Jakarta.
 
 File Format: Shapefile
 
 Variables: name, aeroway
 
 Source: https://data.humdata.org/ 
-
-Description: The data contain gates, helipads, and terminals in Jakarta.
  
 ### Jakarta Points of Interests
+
+Description: The data contain amenities, shops, and tourist attractions in Jakarta.
 
 File Format: Shapefile
 
 Variables: name, amenity, shop, tourism
 
 Source: https://data.humdata.org/ 
-
-Description: The data contain amenities, shops, and tourist attractions in Jakarta.
  
 ### Jakarta Health Facilities
+
+Description: The data contains healthcare facilities in Jakarta.
 
 File Format: Shapefile
 
@@ -193,7 +197,41 @@ Variables: Name, Address, Type, Class, District, Province, Lat, Long, Hospital
 
 Source: https://data.humdata.org/ 
 
-Description: The data contains healthcare facilities in Jakarta.
+## Methodology
+
+1. Data Preparation 
+
+* Data Sourcing
+
+* Data Importing
+
+* Data Wrangling
+
+2. Exploratory Data Analysis (EDA)
+
+* Statistical Graphs
+
+    + Histogram
+
+    + Box Plot
+
+* Choropleth Map
+
+* Kernel Density Estimation
+
+3. Geographically Weighted Regression Models (GWR)
+
+* Spearman Correlation Coefficient
+
+    Spearman Correlation Coefficient is used to determine the most relevant explanatory variables for the regression models
+
+* Cross-Validation score
+
+    Cross Validation Score is used to identify a window size to get different subsets of the data to be parsed into the model.
+
+* Akaike Information Criteria (AIC) score
+
+    AIC evaluates the model generated from the data and sees how well the model can fit other data. It also determines the best evaluated model        that best fits data.
 
 
 ## References

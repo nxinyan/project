@@ -3,8 +3,8 @@ title: "Project Proposal"
 description: |
   Understanding the death rates in Indonesia
 author:
-  - name: Nora Jones
-    url: https://example.com/norajones
+  - name: Team 5 (Toh Jun Long, Ngah Xin Yan, Kwek Yi Chen)
+    url: https://github.com/nxinyan/IS415_project
 date: 10-08-2021
 output:
   distill::distill_article:
@@ -15,12 +15,11 @@ output:
     code_folding: true
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Project Motivation
+## Project Motivation
 
 COVID-19 has become an indisputable part of our daily life ever since the virus spread to the majority of the world. Some countries have been able to keep the situation under control, however, there are some that suffered more devastating effects from it. India and Indonesia are 2 countries in Asia that have the highest COVID related mortality and positive rates (worldometers, n.d.) for COVID-19 cases, especially so in the main capital of the respective countries, likely due to certain underlying common factors within the countries.
 
@@ -28,9 +27,9 @@ Researchers claims that Indonesia's capital, Jakarta, could have as many as 4.7 
 
 Thus, our research would focus on identifying the factors that may have played a part in Jakarta's high infection rate, how much each factor contributes to the rates itself and how much of the infection rate can be explained by these factors, before applying the same model onto other countries to verify our observations.
 
-# Datasets
+## Datasets
 
-Indonesia Monthly Covid Data
+### Indonesia Monthly Covid Data
 
 File Format: Excel
 
@@ -40,7 +39,7 @@ Source: https://riwayat-file-covid-19-dki-jakarta-jakartagis.hub.arcgis.com/
 
 Description: The data contain COVID-19 measures at sub-district level.
  
-Indonesia Population Density / Counts 2020
+### Indonesia Population Density / Counts 2020
 
 File Format: TIF
 
@@ -48,7 +47,7 @@ Source: https://www.worldpop.org/
 
 Description: The datasets contain population density / total number of people in Indonesia per grid-cell, at resolution of 30 arc (approximately 1km).
  
-Indonesia Birth 2015
+### Indonesia Birth 2015
 
 File Format: TIF
 
@@ -56,7 +55,7 @@ Source: https://www.worldpop.org/
 
 Description: The data contain numbers of live births per grid square in Indonesia, at resolution of 30 arc (approximately 1km).
  
-Batas Desa Provinsi DKI Jakarta 
+### Batas Desa Provinsi DKI Jakarta 
 
 File Format: Shapefile
 
@@ -64,7 +63,7 @@ Source: https://www.indonesia-geospasial.com/
 
 Description: This is the geospatial data of DKI Jarkarta.
 
-Jakarta Railway
+### Jakarta Railway
 
 File Format: Shapefile
 
@@ -74,7 +73,7 @@ Source: https://data.humdata.org/
 
 Description: The data contain railways and stations in Jakarta.
  
-Jakarta Education
+### Jakarta Education
 
 File Format: Shapefile
 
@@ -84,7 +83,7 @@ Source: https://data.humdata.org/
 
 Description: The data contain kindergartens, schools, colleges, and universities in Jakarta.
  
-Jakarta Airport
+### Jakarta Airport
 
 File Format: Shapefile
 
@@ -94,7 +93,7 @@ Source: https://data.humdata.org/
 
 Description: The data contain gates, helipads, and terminals in Jakarta.
  
-Jakarta Points of Interests
+### Jakarta Points of Interests
 
 File Format: Shapefile
 
@@ -104,7 +103,7 @@ Source: https://data.humdata.org/
 
 Description: The data contain amenities, shops, and tourist attractions in Jakarta.
  
-Jakarta Health Facilities
+### Jakarta Health Facilities
 
 File Format: Shapefile
 

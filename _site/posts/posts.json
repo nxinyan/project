@@ -22,15 +22,15 @@
     "description": "Welcome to our new blog, IS415 Project. We hope you enjoy \nreading what we have to say!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Team 5 (Kwek Yi Chen,Ngah Xin Yan, Toh Jun Long)",
+        "url": "https://g5-is415-proj.netlify.app/"
       }
     ],
     "date": "2021-10-04",
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-10-04T20:36:36+08:00",
-    "input_file": {}
+    "last_modified": "2021-10-10T18:34:44+08:00",
+    "input_file": "welcome.knit.md"
   }
 ]

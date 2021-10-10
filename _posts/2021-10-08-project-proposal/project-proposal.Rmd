@@ -9,6 +9,10 @@ date: 10-08-2021
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: true
 ---
 
 
@@ -24,11 +28,102 @@ Researchers claims that Indonesia's capital, Jakarta, could have as many as 4.7 
 
 Thus, our research would focus on identifying the factors that may have played a part in Jakarta's high infection rate, how much each factor contributes to the rates itself and how much of the infection rate can be explained by these factors, before applying the same model onto other countries to verify our observations.
 
+<<<<<<< HEAD
 ## Literature Review
 
 
 
 ## References
+=======
+# Datasets
+
+Indonesia Monthly Covid Data
+
+File Format: Excel
+
+Variables: ID_KEL, Nama_provinsi, nama_kota, nama_kecamatan, nama_kelurahan, POSITIF, Meninggal
+
+Source: https://riwayat-file-covid-19-dki-jakarta-jakartagis.hub.arcgis.com/ 
+
+Description: The data contain COVID-19 measures at sub-district level.
+ 
+Indonesia Population Density / Counts 2020
+
+File Format: TIF
+
+Source: https://www.worldpop.org/
+
+Description: The datasets contain population density / total number of people in Indonesia per grid-cell, at resolution of 30 arc (approximately 1km).
+ 
+Indonesia Birth 2015
+
+File Format: TIF
+
+Source: https://www.worldpop.org/
+
+Description: The data contain numbers of live births per grid square in Indonesia, at resolution of 30 arc (approximately 1km).
+ 
+Batas Desa Provinsi DKI Jakarta 
+
+File Format: Shapefile
+
+Source: https://www.indonesia-geospasial.com/ 
+
+Description: This is the geospatial data of DKI Jarkarta.
+
+Jakarta Railway
+
+File Format: Shapefile
+
+Variables: name, railway
+
+Source: https://data.humdata.org/ 
+
+Description: The data contain railways and stations in Jakarta.
+ 
+Jakarta Education
+
+File Format: Shapefile
+
+Variables: name, amenity, addrcity
+
+Source: https://data.humdata.org/ 
+
+Description: The data contain kindergartens, schools, colleges, and universities in Jakarta.
+ 
+Jakarta Airport
+
+File Format: Shapefile
+
+Variables: name, aeroway
+
+Source: https://data.humdata.org/ 
+
+Description: The data contain gates, helipads, and terminals in Jakarta.
+ 
+Jakarta Points of Interests
+
+File Format: Shapefile
+
+Variables: name, amenity, shop, tourism
+
+Source: https://data.humdata.org/ 
+
+Description: The data contain amenities, shops, and tourist attractions in Jakarta.
+ 
+Jakarta Health Facilities
+
+File Format: Shapefile
+
+Variables: Name, Address, Type, Class, District, Province, Lat, Long, Hospital
+
+Source: https://data.humdata.org/ 
+
+Description: The data contains healthcare facilities in Jakarta.
+
+
+# References
+>>>>>>> 81da8d5f79b4ce756e8cee2980b4d04d37db5153
 
 + Sood, A. S. (2021, July 14). Indonesia Covid-19: Almost half of Jakarta’s population may have caught the virus, survey finds. Retrieved October 9, 2021, from https://edition.cnn.com/2021/07/13/asia/indonesia-antibody-study-covid-intl-hnk-scli/index.html
 + worldometers. (n.d.). COVID Live Update: 237,632,869 Cases and 4,851,284 Deaths from the Coronavirus - Worldometer. Retrieved October 8, 2021, from https://www.worldometers.info/coronavirus/#countries
